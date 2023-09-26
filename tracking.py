@@ -1,6 +1,8 @@
 import cv2
 
-cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture(0)
+video = "Tracking/video_test.mp4"
+cap = cv2.VideoCapture(video)
 # tracker = cv2.legacy.TrackerMOSSE.create()
 tracker = cv2.legacy.TrackerCSRT.create()
 ret, frame = cap.read()
