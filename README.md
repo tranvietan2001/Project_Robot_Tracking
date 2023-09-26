@@ -14,6 +14,25 @@
 - https://lembergsolutions.com/blog/object-detection-and-object-tracking-explained-real-examples
 - https://paperswithcode.com/task/object-tracking
 - https://viblo.asia/p/draw-to-your-screen-choi-quickdraw-bang-dua-than-voi-object-tracking-opencv-bWrZnaAOKxw
-
+- https://www.youtube.com/watch?v=CG_tfGfHtng&t=98s
+- https://www.geeksforgeeks.org/computer-vision/?ref=lbp
+- 
+- 
+- https://thigiacmaytinh.com/huong-dan-viet-file-markdown-readme-md/
 ### pp
 - https://ieeexplore.ieee.org/document/10053017
+
+***
+~~w~~
+
+`print()`
+***
+```C
+print("an rab")
+end
+```
+***
+# 1
+## 2
+## 3
+![](./img/img.png)
