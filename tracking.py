@@ -1,13 +1,12 @@
 import cv2
 
 # cap = cv2.VideoCapture(0)
-video = "Tracking/video_test.mp4"
+video = "./Project_Robot_Tracking/video_test.mp4"
 cap = cv2.VideoCapture(video)
 # tracker = cv2.legacy.TrackerMOSSE.create()
 tracker = cv2.legacy.TrackerCSRT.create()
 ret, frame = cap.read()
-
-bbox = cv2.selectROI("Track", frame, False)
+bbox = cv2.selectROI("track", frame, False)
 tracker.init(frame, bbox)
 while True:
     ret,frame = cap.read()
@@ -26,4 +25,4 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 cap.release()
-cv2.destroyAllWindowsls
+cv2.destroyAllWindows()
