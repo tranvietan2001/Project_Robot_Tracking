@@ -6,7 +6,17 @@ cap = cv2.VideoCapture(video)
 # tracker = cv2.legacy.TrackerMOSSE.create()
 tracker = cv2.legacy.TrackerCSRT.create()
 ret, frame = cap.read()
-bbox = cv2.selectROI("track", frame, False)
+# lay toa do keo tha chuot
+# bbox = cv2.selectROI("track", frame, False)
+# toa do tuy chinh\
+x = 810
+y = 359
+w = 33
+h = 22
+bbox = (x,y,w,h)
+cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 255), 2) 
+
+print("Seleck bbox: ",bbox)
 tracker.init(frame, bbox)
 while True:
     ret,frame = cap.read()
