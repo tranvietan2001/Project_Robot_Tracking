@@ -26,6 +26,8 @@
 ### pp
 - https://ieeexplore.ieee.org/document/10053017
 
+- https://github.com/thangnch/MiAI_Object_Detect_Tracking/blob/master/object_detect_track.py
+
 ***
 ~~w~~
 
