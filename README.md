@@ -26,7 +26,7 @@
 ### pp
 - https://ieeexplore.ieee.org/document/10053017
 
-- https://github.com/thangnch/MiAI_Object_Detect_Tracking/blob/master/object_detect_track.py
+- https://miai.vn/2020/01/13/ket-hop-object-detection-va-object-tracking-xay-dung-he-thong-dem-phuong-tien-giao-thong-tren-duong/
 
 ***
 ~~w~~
