@@ -1,18 +1,29 @@
 import cv2
 
 # cap = cv2.VideoCapture(0)
-video = "./Project_Robot_Tracking/video_test.mp4"
+video = "/home/antv/Desktop/CodeCV/Project_Robot_Tracking/img/test.mp4"
 cap = cv2.VideoCapture(video)
 # tracker = cv2.legacy.TrackerMOSSE.create()
 tracker = cv2.legacy.TrackerCSRT.create()
 ret, frame = cap.read()
 # lay toa do keo tha chuot
 # bbox = cv2.selectROI("track", frame, False)
+# print(bbox)
+# ----------------
 # toa do tuy chinh\
-x = 810
-y = 359
-w = 33
-h = 22
+# vide_test.mp4
+# x = 810
+# y = 359
+# w = 33
+# h = 22
+# bbox = (x,y,w,h)
+# cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 255), 2) 
+# ----------------
+# test.mp4
+x = 190
+y = 136
+w = 138
+h = 144
 bbox = (x,y,w,h)
 cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 255), 2) 
 

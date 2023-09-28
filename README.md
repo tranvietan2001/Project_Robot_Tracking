@@ -23,6 +23,8 @@
 - https://www.scaler.com/topics/object-detection-using-opencv-python/
 - 
 - https://thigiacmaytinh.com/huong-dan-viet-file-markdown-readme-md/
+- https://thedatafrog.com/en/articles/human-detection-video/
+- https://viblo.asia/p/sort-deep-sort-mot-goc-nhin-ve-object-tracking-phan-1-Az45bPooZxY
 ### pp
 - https://ieeexplore.ieee.org/document/10053017
 
